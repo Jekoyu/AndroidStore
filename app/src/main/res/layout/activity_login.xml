@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BCD4"
+    android:background="#fff"
     tools:context=".LoginActivity">
+
 
     <TextView
         android:id="@+id/textView20"
@@ -14,6 +15,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="79dp"
         android:text="Forgot Password?"
+        android:textColor="#222325"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.464"
@@ -22,14 +24,12 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="208dp"
+        android:layout_width="wrap_content"
         android:layout_height="43dp"
-        android:layout_marginStart="93dp"
-        android:layout_marginLeft="93dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="110dp"
-        android:layout_marginRight="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
         android:text="Login"
+        android:textColor="#222325"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
@@ -57,6 +57,7 @@
         android:layout_marginLeft="53dp"
         android:layout_marginTop="16dp"
         android:text="Password"
+        android:textColor="#222325"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
 
@@ -64,6 +65,7 @@
         android:id="@+id/editTextTextPersonName7"
         android:layout_width="287dp"
         android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="53dp"
         android:layout_marginLeft="53dp"
         android:layout_marginTop="16dp"
@@ -83,6 +85,7 @@
         android:layout_marginLeft="53dp"
         android:layout_marginTop="115dp"
         android:text="Username"
+        android:textColor="#222325"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -94,6 +97,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="17dp"
         android:text="Login"
+        android:textColor="#222325"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,12 +108,16 @@
         android:id="@+id/textView16"
         android:layout_width="192dp"
         android:layout_height="26dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="164dp"
         android:text="Proced With Your"
+        android:textColor="#222325"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Proced With Your" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
